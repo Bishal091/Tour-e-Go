@@ -1,0 +1,125 @@
+.places{
+    margin: 3rem 4rem;
+   
+}
+.place-heading{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.toptt{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.first-place{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    border: 6px solid rgb(154, 153, 153);
+    border-radius: 5px;
+     margin-top: 2.5rem;
+     padding: 1rem 0.6rem;
+    /* gap: 10rem; */
+}
+.top-desc{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Playpen Sans', cursive;
+
+}
+.first-place-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    /* gap: 10rem; */
+    border: 6px solid rgb(155, 153, 153);
+    border-radius: 5px;
+     margin-top: 2.5rem;
+     padding: 1rem 0.6rem;
+}
+.p1-text{
+    width: 40%;
+
+
+}
+.p1-text h1{
+    margin-bottom: 1rem;
+}
+.p1-text h1:hover{
+    transition: .5s ease-out;
+    letter-spacing: .8rem;
+}
+.prprpr{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.imgs{
+    
+    width: 60%;
+    display: flex;
+    justify-content: center;
+   
+    object-fit: cover;
+    gap: 2rem;
+
+}
+.imgs img{
+    height: 350px;
+     width: 40% ;
+    border-radius: 8px;
+    box-shadow: 1px 12px 12px 1px  rgb(60, 70, 74);
+    object-fit: cover;
+    transition: 0.4s all ease-in-out;
+}
+.imgs img:hover{
+  transform: scale(1.6);
+}
+
+@media screen and (max-width:850px) {
+    .places{
+        margin: 4rem 2rem;
+    }
+    .first-place{
+        display: flex;
+        flex-direction: column-reverse;
+       border: 2px solid gray;
+       border-radius: 5px;
+        margin-top: 2.5rem;
+        padding: 1rem 0.6rem;
+        /* gap: 10rem; */
+    }
+    .first-place-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        border: 2px solid gray;
+        border-radius: 5px;
+         margin-top: 2.5rem;
+         padding: 1rem 0.6rem;
+        margin-top: 2.5rem;
+        /* gap: 10rem; */
+    }
+    .p1-text{
+        width: 100%;
+    }
+    .imgs{
+        width: 100%;
+        margin: 1.8rem 0;
+        
+    }
+    .imgs img{
+        height: 225px;
+    }
+    .place-heading{
+        font-size: 1.8rem;
+    }
+    .toptt{
+        gap: 0.5rem;
+    }
+    
+   
+}

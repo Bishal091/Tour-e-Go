@@ -1,0 +1,120 @@
+
+.h-main{
+ margin: auto;
+width: 80%;
+
+}
+.para{
+
+    border: 0.4rem solid gray;
+    border-radius: 1.6rem;
+    margin: 2rem;
+    padding: 2rem 3rem;
+    
+    display: flex;
+    
+    flex-direction: column;
+   
+
+
+}
+
+.adjust{
+    display:flex ;
+    align-items: center;
+    gap: 2rem;
+     
+}
+.adjust img{
+    /* style={{width:'30%', height:'200px',borderRadius:'1rem'}}  */
+    width: 30%;
+    height: 200px;
+    border-radius: 1rem;
+    transition: 0.4s all ease-in-out;
+
+}
+.adjust img:hover{
+    transform: scale(1.6);
+}
+.para h2{
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+    font-family: 'Playpen Sans', cursive;
+}
+.h-main h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.inner-p{
+
+  
+   padding: 1rem 1rem;
+   
+   
+    
+}
+.para p{
+    font-size: 1.3rem;
+    font-family: 'Playpen Sans', cursive;
+    
+    
+}
+li{
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+    font-family: 'Playpen Sans', cursive;
+}
+@media screen and (max-width:850px) {
+    .h-main{
+        margin: auto;
+       width: 90%;
+       
+       }
+       .para{
+        margin: 1.1rem;
+        padding: 1.3rem 2rem;
+        border: 2px solid gray;
+            padding: 1rem 1rem;
+           
+            
+       }
+       .para h2{
+        margin-bottom: 0.8rem;
+        font-size: 1.6rem;
+       }
+       .h-main h1{
+        font-size: 2.5rem;}
+        .para p{
+            font-size: 1rem;
+        }
+        .adjust{
+            display:flex ;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 1rem;
+            
+           
+             
+        }
+      
+        .adjust img{
+            /* style={{width:'30%', height:'200px',borderRadius:'1rem'}}  */
+          width: 50%;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+        
+        }
+        
+}
+@media screen and (max-width:350px) {
+    .adjust img{
+        /* style={{width:'30%', height:'200px',borderRadius:'1rem'}}  */
+      width: 70%;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    
+
+}
+}

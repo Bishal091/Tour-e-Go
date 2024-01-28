@@ -1,0 +1,82 @@
+.mains{
+    height: 100%;
+padding: 1rem 1rem;
+
+}
+.ari{
+    display: inline;
+    position: absolute;
+    left: 10%;
+    font-size: 6rem;
+   
+}
+
+.arir{
+
+    font-size: 6rem;
+    position: absolute;
+    right: 3%;
+    
+}
+
+.cont{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: .7rem solid gray;
+    border-radius: 1rem;
+    padding: 1.5rem 1.8rem;
+    font-size: 1.5rem;
+    font-family: 'Playpen Sans', cursive;
+text-align: center;
+
+}
+
+.cont h1{
+    margin: 1rem;
+    
+
+}
+.mains .cont:nth-child(1){
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.last{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Playpen Sans', cursive;
+    margin-bottom: 5rem;
+
+}
+@media screen and (max-width:850px) {
+    .mains .cont:nth-child(1){
+       width: 85%;
+       
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .cont{
+        width: 85%;
+        font-size: .7rem;
+        margin: auto;
+        margin-bottom: 1rem;
+
+    }
+    .last{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .ari{
+        display: none;
+        
+    }
+    .arir{
+        display: none;
+
+    }
+  
+}
+

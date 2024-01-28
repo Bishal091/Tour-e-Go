@@ -1,0 +1,99 @@
+.oth{
+    margin: 4rem 6rem;
+    color: black;
+}
+.oth h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.toptt{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+.oth p{
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.5rem;
+
+}
+.other-card{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.o-card{
+    width: 32%;
+    text-align: start;
+    box-shadow: 11px 16px 6px 1px  rgb(140, 222, 255);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+}
+.o-card p{
+    font-size: 1rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.o-image{
+     height: 300px;
+     border-radius: 6px;
+     overflow: hidden;
+}
+.o-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s all ease-in-out;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.o-image:hover  img{
+    transform: scale(1.2);
+
+}
+.o-card h3{
+   margin-bottom: .8rem;
+    letter-spacing: 0.5rem;
+   text-align: center;
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem;
+    border-bottom: 3px solid black;
+}
+@media screen and (max-width:850px) {
+    .oth{
+        margin: 4rem 2rem;
+    }
+    .other-card{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column
+    }
+    .o-card{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2.5rem;
+
+    }
+    .o-image{
+        height: 400px;
+        border-radius: 6px;
+        overflow: hidden;
+   }
+   .o-image img{
+       width: 100%;
+       height: 100%;
+       transition: 0.4s all ease-in-out;
+       border-radius: 6px;
+   }
+   
+.toptt{
+    gap: 0.5rem;
+}
+.oth h1{
+    font-size: 1.8rem;
+}
+}
